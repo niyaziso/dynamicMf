@@ -13,6 +13,16 @@ Users need to download data files into **Data** folder before running the code.
 
 ## Data folder
 
+1. **Zdat.p**: a pickle file that stores tensor with size T x N x M of resource usage statistics of N nodes, M metrics and T time steps. In particular, in this experiment, T = 1000 time steps, N = 1709 nodes and M = 86 metrics. Each metrics has been normalized to standard normal distribution. 
+
+2. **tensortime.csv**: stores the actual clock time corresponding to each time step
+
+3. **nodelist.txt**: the list of names for each compute nodes in Lonestar 4 system. 
+
+4. **metric_names.txt**: the list of metric names used in this experiment
+
+5. **Results**: stores pickles file of resulting factorization for different value of K (K = 3, 5, 10 respectively). For the script to obtain these results, see in the file dynamicMF.ipynb
+
 ## Reproduce Figure 2
 
 ## Reproduce Figure 3
