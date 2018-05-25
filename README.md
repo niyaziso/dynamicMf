@@ -6,9 +6,9 @@ Code is compatible with tensorflow version 1.6.0 and Python 3.6.4.
 
 # External Data
 Because of github repository space limit, we upload data files in the following link:
-```
+
 https://buffalo.app.box.com/s/fa4fcniq25bnjcahob4baifcpo6shvml
-```
+
 
 Users need to download data files into *Data* folder before running the code.
 
