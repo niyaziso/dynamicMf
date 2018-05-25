@@ -26,11 +26,16 @@ Users need to download data files into **Data** folder before running the code.
 6. **log**: a folder to store the reconstruction error at each time step when running dynamicMF script **dynamicMF.ipynb** for different values of K (K = 3, 5, 10)
 
 ## Reproduce Figure 2
-By reading recontruction error in folder **./Data/log/**, producing a plot to visualize the value of objective function for different values of K (K = 3, 5, 10). The script to generate this figure is **compare_K.ipynb**
+
+By reading recontruction errors in folder **./Data/log/**, visualize the value of objective function in every iteration for different values of K (K = 3, 5, 10). The script to generate this figure is **compare_K.ipynb**
 
 ## Reproduce Figure 3
 
+From the resulting factorization, visualize the distribution of node in 10 dimensional latent space at the first time step. For complete view of node distribution throughout a week of data, see the video **./Video/node.mp4**. Each frame in this video is generated in **temporal_node.ipynb**. The first frame in the video is also Figure 2 in the paper.
+
 ## Reproduce Figure 4
+
+From the resulting factorization, visualize the correlation between 10 latent dimensions at each time step. Figure 4 shows the correlation at 1st time step. For complete view of correlation throughout a week (resolution is 10 minutes), see the video **Video/corr.mp4**. Each frame in this video is generated in **correlation.ipynb**.
 
 ## Reproduce video of correlation between latent dimensions throughout the time
 
