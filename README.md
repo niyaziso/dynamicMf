@@ -2,7 +2,7 @@
 Dynamic Matrix Factorization (dynamicMF) was designed to analyze resource usage statistics obtained regularly for each compute node in High-Performance Computing systems (HPC).
 
 # Compatibility
-Code is compatible with tensorflow version 1.6.0 and Python 3.6.4.
+Code is compatible with tensorflow version 1.4.1 and Python 2.7.14.
 
 # External Data
 Because of github repository space limit, we upload data files in the following link:
