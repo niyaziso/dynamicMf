@@ -21,9 +21,12 @@ Users need to download data files into **Data** folder before running the code.
 
 4. **metric_names.txt**: the list of metric names used in this experiment
 
-5. **Results**: stores pickles file of resulting factorization for different value of K (K = 3, 5, 10 respectively). For the script to obtain these results, see in the file dynamicMF.ipynb
+5. **Results**: stores pickles file of resulting factorization for different value of K (K = 3, 5, 10 respectively). For the script to obtain these results, see in the file **dynamicMF.ipynb**
+
+6. **log**: a folder to store the reconstruction error at each time step when running dynamicMF script **dynamicMF.ipynb** for different values of K (K = 3, 5, 10)
 
 ## Reproduce Figure 2
+By reading recontruction error in folder **./Data/log/**, producing a plot to visualize the value of objective function for different values of K (K = 3, 5, 10). The script to generate this figure is **compare_K.ipynb**
 
 ## Reproduce Figure 3
 
